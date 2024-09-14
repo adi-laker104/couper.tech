@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Font Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  /* Main Section Styling */
+  main {
+    padding: 2rem 0;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    background-color: #ecf0f1;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .mission-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mission-section p {
+    font-size: 1.25rem;
+    color: #7f8c8d;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section p {
+    font-size: 1.25rem;
+  }
+  
+  .contact-section a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
