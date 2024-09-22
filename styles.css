@@ -42,7 +42,6 @@ header h1 {
   animation: fadeIn 1.5s ease-in-out forwards;
 }
 
-/* Add smooth fade-in animation */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -158,3 +157,50 @@ footer::before {
     left: 50%;
   }
 }
+
+/* ====== MOBILE FRIENDLY MEDIA QUERIES ====== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+  }
+
+  .mission-section h2, .contact-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .mission-section p, .contact-section p {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .mission-section, .contact-section {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  .mission-section h2, .contact-section h2 {
+    font-size: 2rem;
+  }
+
+  .mission-section p, .contact-section p {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+
+  .mission-section, .contact-section {
+    padding: 1.5rem 1rem;
+  }
+}
+
